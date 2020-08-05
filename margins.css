@@ -1,1 +1,56 @@
+*{
+  box-sizing: border-box;}
+  Font family: Verdana;
+}
 
+body {
+  background-color: DodgerBlue;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+section { 
+    border: 1px solid Violet;
+    background-color: yellow
+    margin: 10px;
+}
+
+section>h2 {
+  float: right;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  margin: 0;
+  width: 230px;
+  text align: center;
+  font-style: Arial;
+  font size: 24px; 
+  font weight: bold;
+  height: 45px;
+  padding-top: 10px;
+}
+
+section.Definition>h2 {
+  background-color: tomato; 
+}
+
+section.Safety>h2 {
+  background-color: purple;
+}
+
+section.Etymology>h2 {
+  color: #e2e2e2;
+  background-color: pink;
+}
+
+section>p {
+  padding: 40px 15px 15px 15px;
+}
+
+.row {
+  width: 100%;
+}
+
+  
